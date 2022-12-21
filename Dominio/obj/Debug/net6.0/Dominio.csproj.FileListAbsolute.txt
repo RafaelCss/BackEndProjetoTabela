@@ -1,0 +1,12 @@
+C:\Projetos\WebApi\Dominio\bin\Debug\net6.0\Dominio.deps.json
+C:\Projetos\WebApi\Dominio\bin\Debug\net6.0\Dominio.dll
+C:\Projetos\WebApi\Dominio\bin\Debug\net6.0\Dominio.pdb
+C:\Projetos\WebApi\Dominio\obj\Debug\net6.0\Dominio.csproj.AssemblyReference.cache
+C:\Projetos\WebApi\Dominio\obj\Debug\net6.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\WebApi\Dominio\obj\Debug\net6.0\Dominio.AssemblyInfoInputs.cache
+C:\Projetos\WebApi\Dominio\obj\Debug\net6.0\Dominio.AssemblyInfo.cs
+C:\Projetos\WebApi\Dominio\obj\Debug\net6.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Projetos\WebApi\Dominio\obj\Debug\net6.0\Dominio.dll
+C:\Projetos\WebApi\Dominio\obj\Debug\net6.0\refint\Dominio.dll
+C:\Projetos\WebApi\Dominio\obj\Debug\net6.0\Dominio.pdb
+C:\Projetos\WebApi\Dominio\obj\Debug\net6.0\ref\Dominio.dll

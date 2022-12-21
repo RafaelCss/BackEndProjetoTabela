@@ -1,0 +1,17 @@
+C:\Projetos\WebApi\Infra\bin\Debug\net6.0\Infra.deps.json
+C:\Projetos\WebApi\Infra\bin\Debug\net6.0\Infra.dll
+C:\Projetos\WebApi\Infra\bin\Debug\net6.0\Infra.pdb
+C:\Projetos\WebApi\Infra\bin\Debug\net6.0\Dominio.dll
+C:\Projetos\WebApi\Infra\bin\Debug\net6.0\Dominio.pdb
+C:\Projetos\WebApi\Infra\obj\Debug\net6.0\Infra.csproj.AssemblyReference.cache
+C:\Projetos\WebApi\Infra\obj\Debug\net6.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\WebApi\Infra\obj\Debug\net6.0\Infra.AssemblyInfoInputs.cache
+C:\Projetos\WebApi\Infra\obj\Debug\net6.0\Infra.AssemblyInfo.cs
+C:\Projetos\WebApi\Infra\obj\Debug\net6.0\Infra.csproj.CoreCompileInputs.cache
+C:\Projetos\WebApi\Infra\obj\Debug\net6.0\Infra.csproj.CopyComplete
+C:\Projetos\WebApi\Infra\obj\Debug\net6.0\Infra.dll
+C:\Projetos\WebApi\Infra\obj\Debug\net6.0\refint\Infra.dll
+C:\Projetos\WebApi\Infra\obj\Debug\net6.0\Infra.pdb
+C:\Projetos\WebApi\Infra\obj\Debug\net6.0\ref\Infra.dll
+C:\Projetos\WebApi\Infra\bin\Debug\net6.0\Infra.runtimeconfig.json
+C:\Projetos\WebApi\Infra\obj\Debug\net6.0\Infra.genruntimeconfig.cache
