@@ -28,7 +28,9 @@ namespace Dominio.Servico
 
 		public async Task Cadastar(Fruta fruta)
 		{
-			await _servicoFruta.CadastrarFruta(fruta);
+			var resultado = new Fruta(fruta.Nome, fruta.ValorA , fruta.ValorB);
+			if(resultado != null)
+			await _servicoFruta.CadastrarFruta(resultado);
 		}
 
 		public Task Filtrar()
