@@ -12,11 +12,8 @@ var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
 	builder.Services.AddCors(options =>
 	{
-		options.AddPolicy(name: MyAllowSpecificOrigins,
-			policy =>
-			{
-			policy.WithOrigins("http://localhost:3000","*");
-			});
+		options.AddPolicy(name: MyAllowSpecificOrigins,policy => policy.WithOrigins("http://localhost:3000","*"));
+		options.AddPolicy("AllowGetMethod",policy => policy.WithMethods("GET","POST"));
 	});
 
 // Configuração banco de dados

@@ -2,6 +2,7 @@
 using Dominio.Entidade;
 using Dominio.Interfaces.IServico;
 using Dominio.Servico;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebApi.Modelos;
@@ -29,6 +30,7 @@ namespace WebApi.Controllers
 		}
 
 		[HttpPost]
+		[DisableCors]
 		public async Task<IActionResult> InsertFrutas([FromBody] ModelViewFrutas query)
 		{
 			var mapperFruta = _mapper.Map<Fruta>(query);
