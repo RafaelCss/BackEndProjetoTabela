@@ -31,7 +31,7 @@ namespace WebApi.Controllers
 
 		[HttpPost]
 		[DisableCors]
-		public async Task<IActionResult> InsertFrutas([FromBody] ModelViewFrutas query)
+		public async Task<IActionResult> InsertFrutas([FromBody] ModelCadastroFruta query)
 		{
 			var mapperFruta = _mapper.Map<Fruta>(query);
 			 await _servicoFruta.Cadastar(mapperFruta);

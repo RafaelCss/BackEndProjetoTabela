@@ -8,14 +8,14 @@ using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
+#region //config Cors
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
-
 	builder.Services.AddCors(options =>
 	{
 		options.AddPolicy(name: MyAllowSpecificOrigins,policy => policy.WithOrigins("http://localhost:3000","*"));
 		options.AddPolicy("AllowGetMethod",policy => policy.WithMethods("GET","POST"));
 	});
-
+#endregion
 // Configuração banco de dados
 
 var connectioDataBase = builder.Configuration.GetConnectionString("connectionMysql");
@@ -40,7 +40,12 @@ if(app.Environment.IsDevelopment())
 	app.UseSwagger();
 	app.UseSwaggerUI();
 }
-app.UseCors(MyAllowSpecificOrigins);
+app.UseCors( c =>
+{
+	c.AllowAnyHeader();
+	c.AllowAnyMethod();
+	c.AllowAnyOrigin();
+});
 app.UseAuthorization();
 
 app.MapControllers();
