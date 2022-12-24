@@ -18,7 +18,7 @@ namespace Infra.Mapeando
 			builder.Property(x => x.Nome);
 			builder.Property(x => x.ValorA);
 			builder.Property(x => x.ValorB);
-			
+			builder.Property(x => x.DataCriacao);
 		}
 	}
 }

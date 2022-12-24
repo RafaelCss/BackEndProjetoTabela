@@ -7,8 +7,19 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "Dominio/1.0.0": {
+        "dependencies": {
+          "Flunt": "2.0.0"
+        },
         "runtime": {
           "Dominio.dll": {}
+        }
+      },
+      "Flunt/2.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
         }
       }
     }
@@ -18,6 +29,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Flunt/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AMp1iY9nvkktxfYEbwDjQA2wn7WmI9voNFS7Aikt2b5Gl4VTwqRUoREf4+64DxiT/xXxMyFEHfrRhhDPydUJFQ==",
+      "path": "flunt/2.0.0",
+      "hashPath": "flunt.2.0.0.nupkg.sha512"
     }
   }
 }

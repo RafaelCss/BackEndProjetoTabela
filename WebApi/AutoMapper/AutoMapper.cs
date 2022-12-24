@@ -9,6 +9,7 @@ namespace WebApi.AutoMapper
 		public AutoMapper( ) 
 		{
 			CreateMap<ModelViewFrutas,Fruta>();
+			CreateMap<Fruta,ModelViewFrutas>();
 			CreateMap<ModelCadastroFruta, Fruta>();
 		}
 	}

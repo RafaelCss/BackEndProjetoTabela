@@ -44,6 +44,14 @@
           }
         }
       },
+      "Flunt/2.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
@@ -340,6 +348,9 @@
         }
       },
       "Dominio/1.0.0": {
+        "dependencies": {
+          "Flunt": "2.0.0"
+        },
         "runtime": {
           "Dominio.dll": {}
         }
@@ -375,6 +386,13 @@
       "sha512": "sha512-XCJ4E3oKrbRl1qY9Mr+7uyC0xZj1+bqQjmQRWTiTKiVuuXTny+7YFWHi20tPjwkMukLbicN6yGlDy5PZ4wyi1w==",
       "path": "automapper.extensions.microsoft.dependencyinjection/12.0.0",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512"
+    },
+    "Flunt/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AMp1iY9nvkktxfYEbwDjQA2wn7WmI9voNFS7Aikt2b5Gl4VTwqRUoREf4+64DxiT/xXxMyFEHfrRhhDPydUJFQ==",
+      "path": "flunt/2.0.0",
+      "hashPath": "flunt.2.0.0.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",

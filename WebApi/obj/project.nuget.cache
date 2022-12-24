@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "jZxVVX9uY7KDonI1fxh5FHco0TtO4peR3WAR2reehcCiVof36VVZ34DByGQZ02K8VaopexnNj9Thiz0uJpY2VA==",
+  "dgSpecHash": "XWU66PgSTUcDedam7DhUaHk7eUK6YOa1jEY3riq7TVOD59Z16xvyOazqXIwDU2sUvduKpDFwREUtdkokopq+fg==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\WebApi\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rf201\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\rf201\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\rf201\\.nuget\\packages\\flunt\\2.0.0\\flunt.2.0.0.nupkg.sha512",
     "C:\\Users\\rf201\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\rf201\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\rf201\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.1\\microsoft.entityframeworkcore.7.0.1.nupkg.sha512",

@@ -26,8 +26,8 @@ builder.Services.AddDbContext<ContextoDataBase>(opt =>
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddControllers();
-builder.Services.AddScoped<IServicoFruta,ServicoFruta>();
-builder.Services.AddScoped<IRepositorioFruta,RepositorioFruta>();
+builder.Services.AddTransient<IServicoFruta,ServicoFruta>();
+builder.Services.AddTransient<IRepositorioFruta,RepositorioFruta>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

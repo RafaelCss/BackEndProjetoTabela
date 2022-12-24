@@ -26,12 +26,14 @@ namespace WebApi.Controllers
 		public async Task<IActionResult> GetFrutas([FromQuery] ModelViewFrutas query)
 		{
 			var busca = await _servicoFruta.BuscarTodos();
-			return Ok(busca);
+			var mapper = _mapper.Map<List<ModelViewFrutas>>(busca);
+			return Ok(mapper);
 		}
 
 		[HttpPost]
-		public async Task<IActionResult> InsertFrutas( ModelCadastroFruta query)
+		public async Task<IActionResult> InsertFrutas([FromBody] ModelCadastroFruta query)
 		{
+			if(!ModelState.IsValid) return BadRequest();
 			var mapperFruta = _mapper.Map<Fruta>(query);
 			 await _servicoFruta.Cadastar(mapperFruta);
 

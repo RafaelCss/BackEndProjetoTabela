@@ -1,11 +1,37 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Flunt/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Flunt/2.0.0": {
+      "sha512": "AMp1iY9nvkktxfYEbwDjQA2wn7WmI9voNFS7Aikt2b5Gl4VTwqRUoREf4+64DxiT/xXxMyFEHfrRhhDPydUJFQ==",
+      "type": "package",
+      "path": "flunt/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "flunt.2.0.0.nupkg.sha512",
+        "flunt.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/Flunt.dll"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Flunt >= 2.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\rf201\\.nuget\\packages\\": {}
@@ -13,11 +39,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\WebApi\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\Projetos\\WebApi\\dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "C:\\Projetos\\WebApi\\Dominio\\Dominio.csproj",
+      "projectPath": "C:\\Projetos\\WebApi\\dominio\\Dominio.csproj",
       "packagesPath": "C:\\Users\\rf201\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\WebApi\\Dominio\\obj\\",
+      "outputPath": "C:\\Projetos\\WebApi\\dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rf201\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +71,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "Flunt": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

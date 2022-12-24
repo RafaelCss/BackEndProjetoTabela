@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "OqAIuD5xd7v0O3AdnV2zAyRk7yb3DfX1LwqZGAabKk++QMGfZ5OtgkmQ8jaQcmpxJhuNjczVx52mrDAF3jzDsg==",
+  "dgSpecHash": "LFExY6aifzAP0SsRErlE7coY2E059bnA8GIAz+v1PAMzJDMdZv7F65P+7dozeqGrZ+ADLL16e0OGUdOEbFOXqg==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\WebApi\\Infra\\Infra.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\rf201\\.nuget\\packages\\flunt\\2.0.0\\flunt.2.0.0.nupkg.sha512",
     "C:\\Users\\rf201\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\rf201\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
     "C:\\Users\\rf201\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.0\\microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",

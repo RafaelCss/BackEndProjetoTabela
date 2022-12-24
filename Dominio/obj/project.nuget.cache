@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "mVd8fPKRsNYeWf69ZH3cuVQsOybRoHd/ik/HjKCEbUSd9ahjbb/mer141Sg36jd6Wb1kZ8WG/YZd68Mvo9nTHA==",
+  "dgSpecHash": "yoIIAbJCNFvbb10WcRQh6WIehMBHsUDMUB58CoGKXPRTPGMjRUCzU3rS+u/wH3KzbQlGncj1D0UE7sE3clDP5A==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\WebApi\\Dominio\\Dominio.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\rf201\\.nuget\\packages\\flunt\\2.0.0\\flunt.2.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

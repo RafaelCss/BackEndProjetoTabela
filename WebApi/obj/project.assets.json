@@ -31,6 +31,15 @@
           "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
+      "Flunt/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -546,6 +555,9 @@
       "Dominio/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Flunt": "2.0.0"
+        },
         "compile": {
           "bin/placeholder/Dominio.dll": {}
         },
@@ -598,6 +610,19 @@
         "automapper.extensions.microsoft.dependencyinjection.nuspec",
         "icon.png",
         "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
+      ]
+    },
+    "Flunt/2.0.0": {
+      "sha512": "AMp1iY9nvkktxfYEbwDjQA2wn7WmI9voNFS7Aikt2b5Gl4VTwqRUoREf4+64DxiT/xXxMyFEHfrRhhDPydUJFQ==",
+      "type": "package",
+      "path": "flunt/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "flunt.2.0.0.nupkg.sha512",
+        "flunt.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/Flunt.dll"
       ]
     },
     "Humanizer.Core/2.14.1": {
