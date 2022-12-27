@@ -19,7 +19,7 @@ namespace Infra.Contexto
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
 			modelBuilder.ApplyConfiguration(new MapeFruta());
-
+			
 			base.OnModelCreating(modelBuilder);
 		}
 

@@ -19,6 +19,7 @@ namespace Infra.Mapeando
 			builder.Property(x => x.ValorA);
 			builder.Property(x => x.ValorB);
 			builder.Property(x => x.DataCriacao);
+			builder.Ignore(x => x.Notifications);
 		}
 	}
 }

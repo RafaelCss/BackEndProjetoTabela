@@ -1,5 +1,7 @@
 ﻿using Dominio.Entidade;
+using Dominio.Interfaces.IResposta;
 using Dominio.Interfaces.IServicos;
+using Dominio.Servico.Respostas;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -9,11 +11,11 @@ using System.Threading.Tasks;
 
 namespace Dominio.Interfaces.IServico
 {
-	public interface IServicoFruta
+	public interface IServicoFruta 
 	{
 		Task<IEnumerable> BuscarTodos();
 		Task Modificar();
-		Task Cadastar(Fruta fruta);
+		Task<IEnumerable> Cadastar(Fruta fruta);
 		Task Filtrar();
 	}
 }

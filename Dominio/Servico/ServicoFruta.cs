@@ -26,9 +26,10 @@ namespace Dominio.Servico
 			return resuiltado;
 		}
 
-		public async Task Cadastar(Fruta fruta)
+		public async Task> Cadastar(Fruta fruta)
 		{
 			var resultado = new Fruta(fruta.Nome, fruta.ValorA , fruta.ValorB);
+			if(resultado.IsValid)
 			await _servicoFruta.CadastrarFruta(resultado);
 		}
 

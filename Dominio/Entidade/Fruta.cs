@@ -15,7 +15,7 @@ namespace Dominio.Entidade
 		public Fruta(string nome , decimal valorA, decimal valorB)
 		{
 			ValidarNome(nome);
-			ValidarValorA(valorA);
+			ValidarValorA(valorA); 
 			ValidarValorB(valorB);
 		}
 		
@@ -26,23 +26,23 @@ namespace Dominio.Entidade
 	
 		private void ValidarValorA(decimal valorA)
 		{
-			if(valorA < 0)
+			if(valorA >= 1)
 				ValorA = valorA;
-			//AddNotification(new Notification("ValorA","Este campo não pode ficar vazio"));
+			AddNotification("ValorA","Este campo não pode ficar vazio");
 		}
 
 		private void ValidarValorB(decimal valorB)
 		{
-			if(valorB < 0)
+			if(valorB >= 1)
 				ValorB = valorB;
-			//AddNotification(new Notification("ValorB","Este campo não pode ficar vazio"));
+			AddNotification("ValorB","Este campo não pode ficar vazio");
 		}
 
 		private void ValidarNome(string nome)
 		{
 			if(!String.IsNullOrEmpty(nome))
 				Nome = nome;
-			//AddNotification(new Notification("Nome","Este campo não pode ficar vazio"));
+			AddNotification("Nome","Este campo não pode ficar vazio");
 		}
 
 	}
