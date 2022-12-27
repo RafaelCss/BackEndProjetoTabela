@@ -15,7 +15,7 @@ namespace Dominio.Interfaces.IServico
 	{
 		Task<IEnumerable> BuscarTodos();
 		Task Modificar();
-		Task<IEnumerable> Cadastar(Fruta fruta);
+		Task Cadastar(Fruta fruta);
 		Task Filtrar();
 	}
 }
