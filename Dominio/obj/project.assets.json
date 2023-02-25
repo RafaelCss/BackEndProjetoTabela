@@ -39,11 +39,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\WebApi\\dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\Projetos\\WebApi\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "C:\\Projetos\\WebApi\\dominio\\Dominio.csproj",
+      "projectPath": "C:\\Projetos\\WebApi\\Dominio\\Dominio.csproj",
       "packagesPath": "C:\\Users\\rf201\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\WebApi\\dominio\\obj\\",
+      "outputPath": "C:\\Projetos\\WebApi\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rf201\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://baget.e-auditoria.com.br/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
@@ -93,7 +94,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

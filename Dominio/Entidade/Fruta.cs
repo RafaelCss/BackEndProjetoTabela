@@ -1,4 +1,5 @@
 ﻿using Flunt.Notifications;
+using Flunt.Validations;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -24,25 +25,34 @@ namespace Dominio.Entidade
 		public decimal ValorA { get; set;}
 		public decimal ValorB { get; set; }
 	
-		private void ValidarValorA(decimal valorA)
+		private Fruta ValidarValorA(decimal valorA)
 		{
 			if(valorA >= 1)
 				ValorA = valorA;
-			AddNotification("ValorA","Este campo não pode ficar vazio");
+			AddNotifications(new Contract<Fruta>()
+				.Requires()
+				.IsMinValue(ValorA, "ValorA","Este campo não pode ficar vazio")
+				);
+			return this;
 		}
 
-		private void ValidarValorB(decimal valorB)
+		private Fruta ValidarValorB(decimal valorB)
 		{
 			if(valorB >= 1)
 				ValorB = valorB;
 			AddNotification("ValorB","Este campo não pode ficar vazio");
+
+			return this;
 		}
 
-		private void ValidarNome(string nome)
+		private Fruta ValidarNome(string nome)
 		{
 			if(!String.IsNullOrEmpty(nome))
 				Nome = nome;
-			AddNotification("Nome","Este campo não pode ficar vazio");
+			AddNotifications(new Contract<Fruta>()
+				.Requires()
+				.IsNotNullOrWhiteSpace(Nome, "Nome","Este campo não pode ficar vazio"));
+			return this;
 		}
 
 	}
